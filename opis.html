@@ -22,7 +22,7 @@
           <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
         </button>
         <!-- ZAČETEK: Ime vaše aplikacije -->
-        <a class="navbar-brand" href="index.html">{ime vaše aplikacije}</a>
+        <a class="navbar-brand" href="index.html">Potepuh</a>
         <!-- KONEC: Ime vaše aplikacije -->
       </div>
       <div class="collapse navbar-collapse" id="menujska-vrstica">
@@ -45,7 +45,11 @@
           </div>
           <div class="panel-body">
             <!-- ZAČETEK: Opis ideje, ki jo aplikacija podpira -->
-            <p><strong>TO-DO</strong>: Na tem mestu je potrebno dodati <strong>osnovni opis ideje rešitve</strong> (kakšen je osnovni SCENARIJ UPORABE, KDO je ciljna publika, za kakšen NAMEN se aplikacija uporablja).</p><p class="text-muted">Opis naj ne bo daljši od 200 besed.</p>
+            <p>Osnovna ideja aplikacije je, prikaz ustrezno naporne (oz. dolge) poti za pacijenta z nekimi določenimi zdravjem. Če je pacient v sorazmerno dobri formi, 
+                se mu predlaga neka daljsa peš pot v okolici njegovega trenutnega nahajanja (ali v Sloveniji nasplošno, Šmarna gora ipd.), 
+                če pa je v slabšem stanju (previsok, prenizek pritisk, prekomerna teža), pa se predlaga neka manj zahtevna pot. 
+                Namen aplikacije je spodbuditi pacienta k aktivnosti, ne glede na njegovo stanje. Ciljna publika so torej udeleženci v slovenskem zdravstvenem sistemu ne glede na njihovo počutje.
+                </p>
             <!-- KONEC: Opis ideje, ki jo aplikacija podpira -->
           </div>
         </div>
@@ -55,7 +59,8 @@
           </div>
           <div class="panel-body">
             <!-- ZAČETEK: Uporabljeni zunanji viri podatkov -->
-            <p><strong>TO-DO</strong>: Na tem mestu je navesti zunanji vir podatkov (URL naslov), na kakšen način ste ga uporabili (neposredni API klic, uvožena statična datoteka ipd.) in kaj je bil namen uporabe (kako se vključuje v osnovno idejo aplikacije).</p>
+            <p>Uporabljen je zunanji vir podatkov aplikacije, ki jo najverjetneje vsi uporabljamo in poznamo: <a href="https://maps.google.com">Google Maps</a>. S klicem <a href="https://developers.google.com/maps/documentation/javascript/">Google Maps JavaScript API</a>
+             pridobimo ustrezno lokacijo uporabnika in mu podamo neko peš pot, ki naj mu bo kot izziv. Dolžina poti je prilagojena uporabnikovemu zdravstvenemu stanju.</p>
             <!-- KONEC: Uporabljeni zunanji viri podatkov -->
           </div>
         </div>
@@ -75,7 +80,8 @@
           </div>
           <div class="panel-body">
             <!-- ZAČETEK: Uporabljeni zunanji viri podatkov -->
-            <p><strong>TO-DO</strong>: Na tem mestu je potrebno navesti uporabljeno tehniko vizualizacije podatkov (za pomoč lahko uporabite primer iz <a href="https://github.com/mbostock/d3/wiki/Gallery" target="_blank">D3.js galerije</a>) in zakaj je bila ta tehnika izbrana.</p>
+            <p>Uporabljena tehnika vizualizacije: <a href="http://bl.ocks.org/NPashaP/96447623ef4d342ee09b">Simple DashBoard</a> Pacientu zaradi boljšega razumevanja
+              na zelo preprost in razumevajoč način prikaže meritve, npr. teža, ki se spreminja z vsako meritvijo, tako da lahko opazuje nek trend v spreminjaju le-te.</p>
             <!-- KONEC: Uporabljeni zunanji viri podatkov -->
           </div>
         </div>
